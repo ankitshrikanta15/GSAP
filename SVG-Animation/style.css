@@ -14,7 +14,7 @@ html, body {
 .string {
   height: 200px;
   width: 100%;
-  background-color: aquamarine;
+  /* background-color: rgb(57, 9, 233); */
 }
 
 svg{
