@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1548266652-99cf27701ced?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  color: #fff;
+}
+
+nav h2 {
+  font-size: 30px;
+}
+
+nav i {
+  font-size: 30px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.full {
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  background-color: #ffffff5f;
+  top: 0;
+  right: -40%;
+  backdrop-filter: blur(20px);
+  padding: 150px 60px;
+}
+
+.full h4 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.full i {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 25px;
+  cursor: pointer;
+}
